@@ -29,4 +29,6 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 brew bundle ~/Brewfile
 ```
 
-## Thanks to https://github.com/mathiasbynens/dotfiles
+#### Thanks to:
+https://github.com/mathiasbynens/dotfiles
+https://github.com/amix/vimrc
