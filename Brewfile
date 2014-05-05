@@ -62,5 +62,8 @@ install homebrew/versions/lua52
 install vim
 install macvim
 
+#ZSH
+install zsh
+
 # Remove outdated versions from the cellar
 cleanup

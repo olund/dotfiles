@@ -12,6 +12,17 @@ files="init vim_runtime Brewfile gvimrc osx vimrc zshrc"    # list of files/fold
 
 ##########
 
+
+echo "      _       _    __ _ _             "
+echo "     | |     | |  / _(_) |            "
+echo "   __| | ___ | |_| |_ _| | ___  ___   "
+echo "  / _\` |/ _ \| __|  _| | |/ _ \/ __|  "
+echo " | (_| | (_) | |_| | | | |  __/\__ \  "
+echo "(_)__,_|\___/ \__|_| |_|_|\___||___/  "
+echo "______________________________________________"
+echo
+echo "Installing dotfiles into user's home directory"
+
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
 mkdir -p $olddir

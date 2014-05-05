@@ -1,4 +1,5 @@
 h,v
+curl -L http://install.ohmyz.sh | sh,V
 https://github.com/amix/vimrc,v
 java.net.BindException: Permission denied,V
 {6Ra[)Jgw2H>9hZa,v
