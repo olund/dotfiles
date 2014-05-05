@@ -30,5 +30,5 @@ brew bundle ~/Brewfile
 ```
 
 #### Thanks to:
-https://github.com/mathiasbynens/dotfiles
+https://github.com/mathiasbynens/dotfiles       
 https://github.com/amix/vimrc
