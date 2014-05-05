@@ -1,3 +1,5 @@
+h,v
+https://github.com/amix/vimrc,v
 java.net.BindException: Permission denied,V
 {6Ra[)Jgw2H>9hZa,v
 import java.io.Console;public class Info {  public static void main(String[] args) {    System.out.println("Hej, vad heter du?");    Console terminal = System.console();    if (terminal == null) {        System.err.println("Terminal inte tillgänglig");         } else {        String namn = terminal.readLine();        System.out.println("Hej, " + namn + ". Ditt namn börjar på " + namn.charAt(0));    }  }},v
