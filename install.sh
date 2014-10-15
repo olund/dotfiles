@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="init vim_runtime Brewfile gvimrc osx vimrc zshrc"    # list of files/folders to symlink in homedir
+files="init vim_runtime Brewfile gvimrc osx vimrc zshrc tmux.conf"    # list of files/folders to symlink in homedir
 
 ##########
 
