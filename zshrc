@@ -57,3 +57,7 @@ alias "sshbth"="ssh heoa13@ssh.student.bth.se"
 #nasty prompt
 #PROMPT="%{$(tput bold)%}%{$(tput setaf 1)%}❯%{$(tput setaf 4)%}❯%{$(tput setaf 3)%}❯ %{$(tput sgr0)%}"
 #RPROMPT='%{$fg[green]%}%~%{$reset_color%}'
+export PATH=/usr/local/bin:$PATH
+
+alias cl='clear'
+. `brew --prefix`/etc/profile.d/z.sh

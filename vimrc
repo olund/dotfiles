@@ -6,7 +6,7 @@ nnoremap <F5> :<C-U>make %:r && ./%:r<CR>
 "Vundle configuration, needed for YouCompleteMe plugin
 set nocompatible              " be iMproved
 filetype off
-set rtp+=~/.vim_runtime/sources_non_forked/vundle/
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
