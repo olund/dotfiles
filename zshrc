@@ -1,6 +1,6 @@
 export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="daveverwer"
-
+#ZSH_THEME="daveverwer"
+ZSH_THEME="bira"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -46,7 +46,7 @@ alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias sites="cd ~/Dropbox/sites"
-alias vim="gvim"
+#alias vim="gvim"
 alias s="subl ."
 
 
@@ -61,3 +61,7 @@ export PATH=/usr/local/bin:$PATH
 
 alias cl='clear'
 . `brew --prefix`/etc/profile.d/z.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
