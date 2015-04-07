@@ -5,7 +5,7 @@ ZSH_THEME="bira"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx)
+plugins=(git osx zsh-syntax-highlighting sublime tmux brew)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -46,13 +46,7 @@ alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias sites="cd ~/Dropbox/sites"
-#alias vim="gvim"
 alias s="subl ."
-
-
-#SSH connections
-alias "sshx80"="ssh root@x80.se"
-alias "sshbth"="ssh heoa13@ssh.student.bth.se"
 
 #nasty prompt
 #PROMPT="%{$(tput bold)%}%{$(tput setaf 1)%}❯%{$(tput setaf 4)%}❯%{$(tput setaf 3)%}❯ %{$(tput sgr0)%}"

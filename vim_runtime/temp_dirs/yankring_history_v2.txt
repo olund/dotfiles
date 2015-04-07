@@ -1,3 +1,4 @@
+2,v
 h,v
 curl -L http://install.ohmyz.sh | sh,V
 https://github.com/amix/vimrc,v
