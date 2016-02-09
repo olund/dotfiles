@@ -27,7 +27,7 @@ git clone https://github.com/olund/dotfiles.git && cd dotfiles && ./install.sh
 When setting up a new Mac, you may want to set some sensible OS X defaults:
 
 ```bash
-./.osx
+./osx
 ```
 
 
