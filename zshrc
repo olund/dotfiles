@@ -56,6 +56,29 @@ export PATH=/usr/local/bin:$PATH
 alias cl='clear'
 . `brew --prefix`/etc/profile.d/z.sh
 
+code () {
+    if [[ $# = 0 ]]
+    then
+        open -a "Visual Studio Code"
+    else
+        [[ $1 = /* ]] && F="$1" || F="$PWD/${1#./}"
+        open -a "Visual Studio Code" --args "$F"
+    fi
+}
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+
+source dnvm.sh
+
+export NVM_DIR="/Users/Olund/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+
+export LC_ALL=en_US.UTF-8
+
+alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
+
+
+source /Users/Olund/.iterm2_shell_integration.zsh
